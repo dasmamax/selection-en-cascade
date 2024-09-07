@@ -7,7 +7,7 @@
         hx-trigger="change" 
         hx-target="#modules">
 
-    <option selected>Ouvrir le menu</option>
+    <option selected>Ouvrir les menus</option>
     {% for course in courses %}
         <option value="{{course.pk}}">{{ course.name }}</option>
     {% endfor %}
